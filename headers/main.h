@@ -7,9 +7,10 @@
 
 #include <srt/srt.h>
 #include "srtinstance.h"
+#include "structs.h"
 
 using namespace std;
-using namespace std::chrono;
+//using namespace std::chrono;
 
 #define LOG_CONSOLE LOG_LOCAL0
 #define TIMESTR_UALL 0
@@ -36,7 +37,7 @@ const int EVENTS_SND_ET = SRT_EPOLL_OUT | SRT_EPOLL_ERR | SRT_EPOLL_ET;
 extern bool enable_rtmp;
 extern int src_count;
 extern int target_count;
-extern list<SRTSOCKET> sockets_in, sockets_out;
+//extern list<SRTSOCKET> sockets_in, sockets_out;
 extern string service_rcv, service_snd, service_rtmp;
 
 // Statistics
