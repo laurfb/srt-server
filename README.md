@@ -1,4 +1,4 @@
-# srt-server
+# srt-server / Docker version
 
 ## Dependencies
   1. SRT (https://github.com/Haivision/srt)
